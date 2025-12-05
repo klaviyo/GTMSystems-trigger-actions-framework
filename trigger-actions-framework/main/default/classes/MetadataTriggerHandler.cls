@@ -341,6 +341,10 @@ public inherited sharing class MetadataTriggerHandler extends TriggerBase implem
 		Trigger_Action__mdt actionMetadata,
 		String relationshipName
 	) {
+		if (!Trigger_Action_Setting__mdt.getInstance('Default').Is_Enabled__c) {
+			return false;
+		}
+		
 		String sObjectBypassPermissionName = (String) ((sObject_Trigger_Setting__mdt) actionMetadata.getSobject(
 				relationshipName + RELATIONSHIP_SUFFIX
 			))
