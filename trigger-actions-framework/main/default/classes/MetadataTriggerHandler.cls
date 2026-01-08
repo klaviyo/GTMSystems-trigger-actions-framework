@@ -385,6 +385,8 @@ public inherited sharing class MetadataTriggerHandler extends TriggerBase implem
                     ((TriggerAction.AfterUndelete) triggerAction).afterUndelete(triggerNew);
                 }
             }
+
+            Triton.instance.flush();
         }
     }
 
