@@ -3,48 +3,39 @@
 		{
 			"path": "trigger-actions-framework",
 			"default": true,
-			"package": "Trigger Actions Framework",
+			"package": "GTM Systems: Trigger Actions Framework",
 			"versionName": "Version 0.3",
-			"versionNumber": "0.3.1.NEXT"
+			"versionNumber": "1.2.0.NEXT",
+			"versionDescription": "Forked from https://github.com/mitchspano/trigger-actions-framework. Klaviyo GTM Systems' version of the Trigger Action Framework established by Mitch Spano. Includes internal switches for features and populators for simpler entry criteria patterns.",
+			"dependencies": [
+				{
+					"package": "Pharos@1.850.86"
+				},
+				{
+					"package": "Pharos Triton@c94adc7"
+				},
+				{
+					"package": "Apex Libra Utilities@2.3"
+				},
+				{
+					"package": "Beyond the Cloud: SOQL Lib@v6.5.0"
+				},
+				{
+					"package": "GTM Systems: Klaviyo Utilties@0.1.0"
+				}
+			]
 		}
 	],
 	"namespace": "",
 	"sfdcLoginUrl": "https://login.salesforce.com",
 	"sourceApiVersion": "63.0",
 	"packageAliases": {
-		"Trigger Actions Framework": "0Ho3h0000008Om4CAE",
-		"Trigger Actions Framework@0.1.0-1": "04t3h000004VaHaAAK",
-		"Trigger Actions Framework@0.1.2": "04t3h000004VaIdAAK",
-		"Trigger Actions Framework@0.1.3": "04t3h000004VaInAAK",
-		"Trigger Actions Framework@0.1.4-0": "04t3h000004VaJWAA0",
-		"Trigger Actions Framework@0.1.4-1": "04t3h000004VaJbAAK",
-		"Trigger Actions Framework@0.1.5-0": "04t3h000004VaJqAAK",
-		"Trigger Actions Framework@0.1.6": "04t3h000004VaLDAA0",
-		"Trigger Actions Framework@0.1.7": "04t3h000004VaLIAA0",
-		"Trigger Actions Framework@0.1.8": "04t3h000004VaLNAA0",
-		"Trigger Actions Framework@0.1.9": "04t3h000004VaLSAA0",
-		"Trigger Actions Framework@0.2.0": "04t3h000004VaLmAAK",
-		"Trigger Actions Framework@0.2.1": "04t3h000004VaVFAA0",
-		"Trigger Actions Framework@0.2.2-1": "04t3h000004OYREAA4",
-		"Trigger Actions Framework@0.2.3-1": "04t3h000004OYTKAA4",
-		"Trigger Actions Framework@0.2.5-1": "04t3h000004OYUDAA4",
-		"Trigger Actions Framework@0.2.6-1": "04t3h000004juLaAAI",
-		"Trigger Actions Framework@0.2.8": "04t3h000004juLuAAI",
-		"Trigger Actions Framework@0.2.9": "04t3h000004juNCAAY",
-		"Trigger Actions Framework@0.2.9-1": "04t3h000004juNHAAY",
-		"Trigger Actions Framework@0.2.10": "04t3h000004juNRAAY",
-		"Trigger Actions Framework@0.2.11": "04tKY000000Pb8tYAC",
-		"Trigger Actions Framework@0.3.0": "04tKY000000Pb8ZYAS",
-		"Trigger Actions Framework@0.3.1-0": "04tKY000000Pd90YAC",
-		"Trigger Actions Framework@0.3.1-1": "04tKY000000Pd95YAC",
-		"Trigger Actions Framework@0.3.1-2": "04tKY000000Pd9AYAS",
-		"Trigger Actions Framework@0.3.1-3": "04tKY000000PdYBYA0",
-		"Trigger Actions Framework@0.3.1-4": "04tKY000000PdYGYA0",
-		"Trigger Actions Framework@0.3.1-5": "04tKY000000PdYaYAK",
-		"Trigger Actions Framework@0.3.1-6": "04tKY000000PdZ9YAK",
-		"Trigger Actions Framework@0.3.1-7": "04tKY000000PdZJYA0",
-		"Trigger Actions Framework@0.3.2": "04tKY000000PdZOYA0",
-		"Trigger Actions Framework@0.3.3": "04tKY000000QQ0RYAW",
-		"Trigger Actions Framework@0.3.4-1": "04tKY000000R0yHYAS"
+		"GTM Systems: Trigger Actions Framework": "0HoNu0000000zzZKAQ",
+    	"GTM Systems: Trigger Actions Framework@1.1.0": "04tNu000001azHJIAY",
+		"Pharos Triton@c94adc7": "04tNu000001VIw9IAG",
+   	 	"Pharos@1.850.86": "04tKW000000kepWYAQ",
+		"Apex Libra Utilities@2.3": "04tNu000001QCcrIAG",
+		"Beyond the Cloud: SOQL Lib@v6.5.0": "04tNu000001YE6PIAW",
+		"GTM Systems: Klaviyo Utilties@0.1.0": "04tNu000001dceLIAQ"
 	}
 }
